@@ -1,5 +1,5 @@
 #!/bin/sh
-value=0
+value=$frist
 for i in $1
 do
 total=`expr $value + $i`
